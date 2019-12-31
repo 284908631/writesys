@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文管理系统</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/art.css">
+
+</head>
+<body>
+    <header>
+        <h1>行文管理系统</h1>
+        <h4>成功不是必然的，但努力是必须的</h4>
+        <div class="user_nav">
+            [<a href="./newxw.php">首页</a>
+            <a href="./user.php"><?php echo getMyDept(); ?></a>
+            <a href="./loginoff.php">注销</a>
+            ]
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./newxw.php">新行文</a></li>
+            <li><a href="./oldxw.php">旧行文</a></li>
+            <li><a href="./myxw.php">我的行文</a></li>
+            <li id="select"><a href="./xwadd.php">行文发布</a></li>
+            <li><a href="./manage.php">系统管理</a></li>
+            <li><a href="./help.php">帮助</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+            <div id="respond" class="comment-respond">
+                <h3>Update a Message</h3>
+                <form action="" method="post">
+                    <p class="yincang">
+                    <input name="xw_id" type="text" value="<?php echo $xw['xw_id']; ?>">
+                    </p>
+                    <p>
+                    <input placeholder="title" name="xw_title" type="text" value="<?php echo $xw['xw_title']; ?>" size="30">
+                    </p>
+                    <textarea name="xw_content" cols="45" rows="8" aria-required="true"><?php echo $xw['xw_content']; ?></textarea>
+                    <p>
+                    <?php if($xw['xw_wenjian']!=''){ ?>
+                    <div class="entry_content">
+                       <a href="<?php echo '.'.$xw['xw_wenjian']; ?>">下载文件</a>
+                    </div>
+                    <?php } ?>
+                    to:
+                    <select name ="xw_to">
+                    <?php foreach($depts as $dept){ ?>
+                        <option  value="<?php echo $dept['dept_id']; ?>" <?php if($xw['xw_to'] == $dept['dept_id']){ echo "selected";} ?>><?php echo $dept['dept_name']; ?></option>
+                    <?php }?>
+                    </select>
+                    </p>
+                    <input type="submit" value="Save Message" name="xw_flag">
+                    <input type="submit" value="Post Message" name="xw_flag">
+                    <a class="xwdel" href="./xwdel.php?xw_id=<?php echo $xw['xw_id'];?>">删除行文</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>公告</h4>
+                <ul>
+                    <li>1.您账号的部门名将作为发件人</li>
+                    <li>2.提交后将无法进行修改</li>
+                </ul>
+            </aside>
+            
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

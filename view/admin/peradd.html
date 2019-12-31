@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文系统后台界面</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <h1>行文系统后台界面</h1>
+    </header>
+    <div id="main">
+        <div id="lside">
+            <aside>
+                <h4>用户管理</h4>
+                <ul>
+                    <li><a href="./manage.php">用户列表</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>公司员工</h4>
+                <ul>
+                    <li><a href="./perlist.php">员工列表</a></li>
+                    <li><a href="./peradd.php">添加员工</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div id="rside">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label>姓名</label>
+                    <p>
+                        <input type="text" name="emp_name">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>性别</label>
+                    <p>
+                        <select class="select" name="emp_sex">
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>部门</label>
+                    <p>
+                        <select name="dept_id">
+                            <?php foreach($depts as $dept){ ?>
+                            <option value="<?php echo $dept['dept_id'];?>"><?php echo $dept['dept_name']; ?></option>
+                            <?php } ?>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>tel</label>
+                    <p>
+                        <input type="text" name="emp_tel">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>email</label>
+                    <p>
+                        <input type="text" name="emp_email">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <p>
+                        <button type="submit">提交</button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

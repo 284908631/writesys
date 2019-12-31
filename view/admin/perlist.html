@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文系统后台界面</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <h1>行文系统后台界面</h1>
+    </header>
+    <div id="main">
+        <div id="lside">
+            <aside>
+                <h4>用户管理</h4>
+                <ul>
+                    <li><a href="./manage.php">用户列表</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>公司员工</h4>
+                <ul>
+                    <li><a href="./perlist.php">员工列表</a></li>
+                    <li><a href="./peradd.php">添加员工</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>姓名</td>
+                    <td>性别</td>
+                    <td>电话</td>
+                    <td>邮件</td>
+                    <td>部门名</td>
+                    <td>操作</td>
+                </tr>
+                <?php foreach($pers as $per){ ?>
+                <tr>
+                    <td><?php echo $per['emp_id']; ?></td>
+                    <td><?php echo $per['emp_name']; ?></td>
+                    <td><?php echo $per['emp_sex']; ?></td>
+                    <td><?php echo $per['emp_tel']; ?></td>
+                    <td><?php echo $per['emp_email']; ?></td>
+                    <td><?php echo $per['dept_name']; ?></td>
+                    <td><a href="./perup.php?emp_id=<?php echo $per['emp_id']; ?>">修改</a></td>
+                </tr>
+               <?php } ?>
+            </table>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

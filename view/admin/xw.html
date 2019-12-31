@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/art.css">
+</head>
+<body>
+    <header>
+        <h1>行文</h1>
+        <h4>成功不是必然的，但努力是必须的</h4>
+        <div class="user_nav">
+            [<a href="./newxw.php">首页</a>
+            <a href="./user.php"><?php echo getMyDept(); ?></a>
+            <a href="./loginoff.php">注销</a>
+            ]
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./newxw.php">新行文</a></li>
+            <li><a href="./oldxw.php">旧行文</a></li>
+            <li><a href="./myxw.php">我的行文</a></li>
+            <li><a href="./xwadd.php">行文发布</a></li>
+            <li><a href="./manage.php">系统管理</a></li>
+            <li><a href="./help.php">帮助</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+            <article>
+                <h2><a href=""><?php echo $xw['xw_title']; ?></a></h2>
+                <div class="entry_header">
+                    <time><?php echo date('Y/m/d H:i:s',$xw['xw_date']); ?></time>
+                    by
+                    <a href="#"><?php echo getDeptName($xw['xw_auther']); ?></a>
+                </div>
+                <div class="entry_content">
+                   <?php echo $xw['xw_content']; ?>
+                </div>
+                <?php if($xw['xw_wenjian']!=''){ ?>
+                <div class="entry_content">
+                   <a href="<?php echo '.'.$xw['xw_wenjian']; ?>">下载文件</a>
+                </div>
+                <?php } ?>
+            </article>
+            <?php foreach($xwcls as $xwcl){ ?>
+            <div id="comments">
+                <ol>
+                    <li>
+                        <img class="headphoto" src="./images/timg.jpg" alt="">
+                        <cite><a href="#"><?php echo getDeptName($xwcl['xw_receiver']);?></a></cite> <br>
+                        <time><?php echo date('Y/m/d H:i:s',$xwcl['xwcl_date']); ?></time>
+                    </li>
+                    <li>
+                       <?php echo $xwcl['xwcl_content']; ?>
+                    </li>
+                </ol>
+            </div>
+            <?php } ?>
+            <div id="respond" class="comment-respond">
+                <h3>Leave a Comment</h3>
+                <p>your name : <?php echo getMyDept(); ?></p>
+                <form action="" method="post">
+                    <p>
+                    <textarea name="xwcl_content" cols="45" rows="8" aria-required="true"></textarea>
+                    <p>
+                    <input type="submit" value="Post Comment">
+                </p>
+                </form>
+            </div>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>公告</h4>
+                <ul>
+                    <li>1.您账号的部门名将作为发件人</li>
+                   
+                </ul>
+            </aside>
+            
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

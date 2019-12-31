@@ -1,0 +1,1132 @@
+------------------------------
+2019/12/28 00:43:59
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 00:43:59
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 00:43:59
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 00:43:59
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 02:42:11
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 02:42:11
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 02:42:11
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 02:42:11
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 03:59:24
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 03:59:24
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 03:59:24
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 03:59:24
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 04:49:08
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 04:49:08
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 04:49:08
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 04:49:08
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:41:59
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:41:59
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:41:59
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 06:41:59
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:52:43
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:52:43
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 06:52:43
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 06:52:43
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 07:04:16
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 07:04:16
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 07:04:16
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 07:04:16
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 10:17:20
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 10:17:20
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 10:17:20
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 10:17:20
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 13:31:21
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 13:31:21
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 13:31:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 13:31:21
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:05:28
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:05:28
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:05:28
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:05:28
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:51
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:51
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:54:52
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:53
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:53
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:54:53
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:54:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:57
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:57
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:54:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:54:57
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:55:04
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:55:04
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 19:55:04
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 19:55:04
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 20:40:57
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 20:40:57
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 20:40:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:40:57
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 20:41:10
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/28 20:41:22
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/28 20:41:41
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/28 20:41:41
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/28 20:41:42
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:41:42
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/28 20:41:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:41:42
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:41:47
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:41:57
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:41:57
+update user_pswd set nbxw_pswd = 1234 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:41:59
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:41:59
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/28 20:41:59
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:41:59
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:02
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:02
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/28 20:42:02
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:02
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:03
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:03
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/28 20:42:03
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:03
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:07
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:07
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/28 20:42:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:07
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:08
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:08
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:09
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:09
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:10
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/28 20:42:35
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' and xw_flag = 1 order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:35
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:36
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' and xw_flag = 0 order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:36
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:41
+select * from xw where xw_id = 4
+------------------------------
+
+------------------------------
+2019/12/28 20:42:41
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:45
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/28 20:42:48
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:48
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:48
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:49
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:49
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:55
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:55
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:42:56
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:01
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%黄鑫%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:01
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:06
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%以%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:09
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%一%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:09
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:14
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:14
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/28 20:43:14
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:43:14
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:19
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:19
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:23
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%行政部%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/28 20:43:23
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 20:43:25
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 20:43:25
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:51
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:52
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:53
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:54
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 22:02:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:23
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:23
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 23:27:23
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:30
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:30
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:30
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 23:27:30
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:36
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:36
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:36
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 23:27:36
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:43
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:43
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/28 23:27:43
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/28 23:27:43
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+

@@ -1,0 +1,4733 @@
+------------------------------
+2019/12/27 10:01:04
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2  and xw_title like  '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:01:04
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2and xw_title like  '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xw_title like  '%' order by xw_id desc limit 0,3' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:01:04
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:01:04
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:02:10
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2  and xw_title like  '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:02:10
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2and xw_title like  '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xw_title like  '%' order by xw_id desc limit 0,3' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:02:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:02:10
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:04
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2  and xw_title like  '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:03:04
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2 and xw_title like  '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:03:04
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:03:04
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:06
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2  and xw_title like  '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:03:06
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2 and xw_title like  '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:03:06
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:03:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:19
+select * from xwcl where xw_id=
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:19
+select dept_name from dept where dept_id=
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:19
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:03:27
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 10:03:39
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:03:39
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:03:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:03:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:03
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:03
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:03
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:08:03
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:08:13
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:27
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:08:27
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:08:27
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:08:27
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:08:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:08:31
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:09:27
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:09:27
+insert into xw(xw_title,xw_auther,xw_content,xw_date,xw_flag,xw_to,xw_read) values('请汇报招聘情况','1','请汇报招聘情况，十点前发给我','1577412567','1','3','0')
+------------------------------
+
+------------------------------
+2019/12/27 10:09:27
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:09:27
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:09:27
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:09:31
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:09:31
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:09:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:09:31
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:10:11
+select * from  user_pswd where nbxw_user = '3'
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select * from  user_pswd where nbxw_user = '3'
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select dept_id from user_pswd where nbxw_user = '3'
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select count(*) from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select * from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:10:23
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:10:26
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:10:26
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:10:26
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:10:26
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+insert into xwcl(xw_id,xwcl_content,xw_receiver ,xwcl_date) values('15','人力资源部收到','3','1577412638')
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:10:38
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+insert into xwcl(xw_id,xwcl_content,xw_receiver ,xwcl_date) values('15','出了点小问题，请稍等','3','1577412695')
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:35
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:42
+select count(*) from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:11:42
+select * from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:11:42
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:50
+update xw set xw_read = 1 where xw_id = 15
+------------------------------
+
+------------------------------
+2019/12/27 10:11:50
+select count(*) from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:11:50
+select * from xw,dept where xw_to = 3 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:11:51
+select dept_name from dept where dept_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 10:11:55
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:11:55
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:11:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:11:55
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:02
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 10:12:02
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 10:12:03
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:03
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:03
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:12:03
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:06
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select * from xw where xw_id = 15 
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select * from xwcl where xw_id=15
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select dept_name from dept where dept_id=3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:07
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:46
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:46
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:12:46
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:52
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 8 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:52
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 8 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:12:52
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:54
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:54
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:12:54
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:12:56
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:12:56
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:12:56
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:12:56
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 10:13:00
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 10:13:53
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 10:14:15
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 10:14:15
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 10:14:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 10:14:15
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 11:11:06
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 11:11:12
+select * from  manage where username = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 11:11:12
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 11:12:29
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 11:14:09
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:25:10
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:29:59
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:30:52
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:31:01
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:31:06
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:31:18
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:31:40
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:31:50
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:32:06
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:32:20
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:34:31
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:34:32
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:34:34
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:36:07
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:36:11
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 12:36:14
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:38:07
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:38:47
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:47:44
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:47:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:49:12
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:50:32
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:50:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:51:13
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:51:44
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 12:51:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:52:38
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:52:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:53:06
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:54:36
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_emial) values('234','男','1','1234234','1234')
+错误提示：Unknown column 'emp_emial' in 'field list'
+------------------------------
+
+------------------------------
+2019/12/27 12:55:26
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:55:33
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:55:35
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('234','男','1','1234234','1234')
+------------------------------
+
+------------------------------
+2019/12/27 12:55:35
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:55:52
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('234','男','1','1234','34')
+错误提示：Duplicate entry '0' for key 'PRIMARY'
+------------------------------
+
+------------------------------
+2019/12/27 12:57:29
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('234','男','1','1234','34')
+------------------------------
+
+------------------------------
+2019/12/27 12:57:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:58:04
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('234','男','1','1234','34')
+------------------------------
+
+------------------------------
+2019/12/27 12:58:04
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 12:58:04
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:20:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:20:56
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:21:02
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 14:21:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:21:09
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:21:58
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:22:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:22:15
+select * from  manage where username = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 14:22:15
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 14:22:17
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:22:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:22:26
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:23:43
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:23:51
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:23:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:24:21
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('黄九','女','6','12342341','3qq.com')
+------------------------------
+
+------------------------------
+2019/12/27 14:24:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:24:21
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:28:52
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:36:12
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:36:38
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:36:38
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:37:56
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:37:56
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:38:08
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:38:08
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:38:40
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:38:40
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:40:46
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:40:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:40:49
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:40:49
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:40:57
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:40:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:40:58
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:40:58
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:41:19
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:41:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:44:57
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:44:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:45:01
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:45:01
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:45:06
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 14:45:17
+select * from personnel where emp_id = 2
+------------------------------
+
+------------------------------
+2019/12/27 14:45:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:45:22
+select * from personnel where emp_id = 3
+------------------------------
+
+------------------------------
+2019/12/27 14:45:22
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:45:57
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:45:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:46:30
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:46:30
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:46:46
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:46:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:50:08
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:50:08
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:50:32
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:50:32
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:50:41
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:50:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:50:46
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:50:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:52:39
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:52:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:52:41
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:52:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:52:43
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:52:43
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:53:17
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:53:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:55:29
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:55:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 14:55:36
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 14:55:36
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:00:52
+update personnel set emp_name='黄九',emp_sex='女',dept_id='6',emp_tel='12342341',emp_email='3qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:00:52
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:00:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:00:52
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:00:57
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:00:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:01
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='12342341',emp_email='3qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:01
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:01
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:01
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:07
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:10
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='12342341',emp_email='333qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:10
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:10
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:13
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:13
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:19
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='199777234234',emp_email='333qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:19
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:20
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:28
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:28
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:35
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='199234234',emp_email='333qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:35
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:35
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:35
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:37
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:37
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:39
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='19923423423',emp_email='333qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:39
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:01:40
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:01:40
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:04:30
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:04:42
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:04:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:04:44
+update personnel set emp_name='黄九',emp_sex='女',dept_id='7',emp_tel='214748364734',emp_email='333qq.com' where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:04:45
+select * from personnel where emp_id = 8
+------------------------------
+
+------------------------------
+2019/12/27 15:04:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:04:45
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:06:27
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:06:30
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:06:34
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:06:49
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:07:31
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:09:27
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:10:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:14:03
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:14:14
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:15:34
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:15:43
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:15:45
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:15:46
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:15:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:17:06
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:17:06
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:17:06
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:17:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:17:22
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:06
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:06
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:19:06
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:09
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:09
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:15
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:15
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:18
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:18
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:21
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:21
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:19:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:21
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:49
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:49
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:19:49
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:49
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:53
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:53
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:55
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:55
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:19:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:55
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:56
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:56
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:19:56
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:19:56
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:19:58
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:19:59
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:20:00
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:20:00
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:20:04
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:37:42
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:37:42
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:37:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:37:45
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:37:48
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:38:23
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:38:23
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:38:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:38:23
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:38:26
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:38:26
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:38:26
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:38:26
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:38:28
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:38:31
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%test%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 15:38:31
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%test%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 15:38:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:38:31
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:38:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:38:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:40:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:40:23
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:40:33
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:40:33
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:40:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:40:45
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:10
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:21
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:28
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:28
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:34
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:34
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:41:44
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:41:44
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:42:01
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:42:01
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:42:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:42:51
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:43:12
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:43:12
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:43:34
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:43:34
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:44:02
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:44:02
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:44:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:44:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:44:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:44:45
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:46:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:46:46
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:47:03
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:47:03
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:47:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:47:10
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:47:34
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:47:38
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:48:27
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:48:32
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:48:33
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:48:33
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:52:29
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:52:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:52:35
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:52:35
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:52:41
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:52:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:52:54
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:52:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:52:58
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:52:58
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:53:14
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:53:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:53:37
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:53:37
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:53:57
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:53:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:54:19
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:54:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:54:53
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 15:54:53
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:55:39
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:55:40
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:56:12
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:56:15
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:56:17
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 15:56:19
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 15:56:22
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:57:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 15:57:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:03:15
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:03:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:03:22
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:03:23
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:03:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:03:27
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:03:29
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:06:11
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:06:37
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:06:40
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:06:55
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:07:18
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:07:25
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:07:27
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:07:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:08:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:08:30
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:08:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:08:54
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:08:58
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:10
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:24
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:33
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:49
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:09:51
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:09:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:10:31
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:10:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:10:40
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:10:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:10:50
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:10:50
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:10:55
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:10:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:11:00
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:11:00
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:11:15
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:28:40
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:28:40
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:28:40
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:28:41
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:28:46
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:28:46
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:28:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:28:46
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:29:17
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:29:17
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:29:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:29:17
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:09
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:12
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:12
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:12
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:12
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:14
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:14
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:15
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:21
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:22
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:23
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:23
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:23
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:24
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:24
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:26
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:26
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:26
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:30:31
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:31
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:31
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:30:32
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:30:32
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:30:32
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:30:32
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:31:28
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:31:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:31:41
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:11
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:33:11
+insert into xw(xw_title,xw_auther,xw_content,xw_date,xw_flag,xw_to,xw_read) values('通知黄鑫来我办公司一趟','1','速度通知黄鑫来我办公司一趟！有重要的事！','1577435591','1','4','0')
+------------------------------
+
+------------------------------
+2019/12/27 16:33:11
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:11
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:33:11
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:34
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:34
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:34
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:33:34
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select * from  user_pswd where nbxw_user = '4'
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select dept_id from user_pswd where nbxw_user = '4'
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:33:48
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:33:52
+update xw set xw_read = 1 where xw_id = 16
+------------------------------
+
+------------------------------
+2019/12/27 16:33:52
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:33:52
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:33:52
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:33:52
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:33:54
+select * from xw where xw_id = 16 
+------------------------------
+
+------------------------------
+2019/12/27 16:33:54
+select * from xwcl where xw_id=16
+------------------------------
+
+------------------------------
+2019/12/27 16:33:54
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 16:33:54
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select * from xw where xw_id = 16 
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select * from xwcl where xw_id=16
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+insert into xwcl(xw_id,xwcl_content,xw_receiver ,xwcl_date) values('16','给爷爪巴 辞职了','4','1577435673')
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select * from xw where xw_id = 16 
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select * from xwcl where xw_id=16
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select dept_name from dept where dept_id=4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:33
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:36
+select * from xw where xw_id = 16 
+------------------------------
+
+------------------------------
+2019/12/27 16:34:36
+select * from xwcl where xw_id=16
+------------------------------
+
+------------------------------
+2019/12/27 16:34:36
+select dept_name from dept where dept_id=1
+------------------------------
+
+------------------------------
+2019/12/27 16:34:36
+select dept_name from dept where dept_id=4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:36
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:34:56
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:34:57
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:34:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:34:57
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:58
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:34:58
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:34:58
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:34:58
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:34:59
+select * from xw,dept where xw_auther = 4 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:34:59
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:35:00
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:35:00
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:35:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:35:57
+insert into xw(xw_title,xw_auther,xw_content,xw_date,xw_flag,xw_to,xw_read) values('溜了溜了','4','由于明月老板拖欠工资八十亿，带着他和他的小姨子跑了 ','1577435757','1','1','0')
+------------------------------
+
+------------------------------
+2019/12/27 16:35:57
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:35:58
+select * from xw,dept where xw_auther = 4 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:35:58
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:00
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:00
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:04
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:04
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:04
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:04
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:36:12
+select * from xw,dept where xw_auther = 4 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:12
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:14
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:14
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:14
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:36:25
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:36:26
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:26
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:29
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:29
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:29
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:31
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:44
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:44
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:36:45
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1 and dept.dept_id = 3 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:45
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1 and dept.dept_id = 3 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:45
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:45
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:45
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:36:47
+select count(*) from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:36:47
+select * from xw,dept where xw_to = 4 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:36:47
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:36:47
+select dept_name from dept where dept_id = 4
+------------------------------
+
+------------------------------
+2019/12/27 16:36:50
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:37:07
+select * from  manage where username = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 16:37:07
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:37:10
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 16:37:12
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:37:14
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:38:18
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:38:33
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:38:33
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:38:33
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:38:33
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:38:33
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 16:38:39
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:38:39
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/27 16:38:39
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:38:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:38:40
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:38:40
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:38:40
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:38:40
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:38:42
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:38:42
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/27 16:38:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:38:42
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:38:43
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:38:43
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:38:56
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:38:56
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:45:42
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:45:42
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:45:42
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:45:42
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:45:46
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:45:46
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:45:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:45:46
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:45:51
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:45:51
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:45:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:45:51
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:45:55
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 16:45:55
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 16:45:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:45:55
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 16:46:31
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:46:31
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:46:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 16:46:31
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 16:58:14
+select * from  user_pswd where nbxw_user = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 16:59:52
+select * from  user_pswd where nbxw_user = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 17:00:36
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:36
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:36
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:00:36
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:43
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:43
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:43
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:00:43
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:48
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:48
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:00:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:00:48
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:01:01
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 17:02:05
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:02:23
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:02:42
+select * from  manage where username = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 17:02:50
+select * from  manage where username = 'root'
+------------------------------
+
+------------------------------
+2019/12/27 17:02:50
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:02:54
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:02:56
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 17:03:01
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:11:05
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:05
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:05
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:05
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:15
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:15
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 1 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:15
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:17
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:17
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 2 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:17
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:19
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 3 and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:19
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0 and dept.dept_id = 3 and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:19
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:25
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:25
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:25
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:25
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:29
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%test%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:29
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%test%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:29
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:32
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:34
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:35
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:35
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:35
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:38
+update xw set xw_read = 1 where xw_id = 17
+------------------------------
+
+------------------------------
+2019/12/27 17:11:38
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:38
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:11:38
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:38
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:42
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:11:42
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:11:46
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:11:49
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:13:38
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:13:46
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:13:48
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 17:13:57
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:13:57
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:13:57
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:13:57
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:14:07
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:14:07
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:14:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:14:07
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:17:11
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:17:11
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:17:11
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:17:11
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 17:17:20
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:21:37
+select * from user_pswd
+------------------------------
+
+------------------------------
+2019/12/27 17:22:25
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:22:47
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:23:30
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:23:33
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:24:02
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 17:24:05
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 17:24:34
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:25:09
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 17:25:32
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:01:45
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:02:19
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select * from  user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select dept_id from user_pswd where nbxw_user = '1'
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:04:46
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:06:59
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:06:59
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:07:38
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:07:38
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:19:59
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:20:00
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:20:42
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:21:20
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:38
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:38
+update user_pswd set nbxw_pswd = 1234 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:43
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:43
+update user_pswd set nbxw_pswd = 1234 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:45
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:49
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:54
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:22:54
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:05
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:23:05
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:23:05
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:23:05
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:08
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:23:08
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:23:08
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:23:08
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:11
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:15
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:16
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:23:24
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:23:24
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:23:24
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:23:24
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:44:32
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:44:47
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:44:48
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:44:48
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:45:59
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:46:00
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:46:05
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:46:05
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:46:05
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:46:05
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:46:12
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:46:14
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:46:14
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:09
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:09
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:17
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:17
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:24
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:24
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:37
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:37
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:52
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:52
+update user_pswd set nbxw_pswd = 12345 where nbxw_user = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:47:55
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:47:55
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:47:55
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:47:55
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:05
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:48:05
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:48:05
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:48:05
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:06
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:48:06
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:07
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:48:07
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:48:07
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:48:07
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:08
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:48:08
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:48:19
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:48:20
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:48:24
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:48:27
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:49:26
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:49:30
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:49:46
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:49:48
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:49:59
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:50:02
+select * from user_pswd,dept where nbxw_user = 8 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:50:06
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:50:09
+select * from user_pswd,dept where nbxw_user = 1 and dept.dept_id = user_pswd.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:50:14
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 18:50:14
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 18:50:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:15
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:15
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 18:50:18
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:19
+select * from personnel where emp_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:50:19
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:50:50
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:52:17
+insert into personnel(emp_name,emp_sex,dept_id,emp_tel,emp_email) values('炉十','男','6','12341234','www.qq.com')
+------------------------------
+
+------------------------------
+2019/12/27 18:52:17
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:52:17
+select * from per_dept
+------------------------------
+
+------------------------------
+2019/12/27 18:52:31
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:52:51
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:52:51
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:52:51
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:52:51
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:52:57
+select * from user_pswd where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:53:00
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:53:00
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:53:00
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:53:00
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:53:02
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:53:02
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:53:02
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:53:02
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:53:03
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 18:55:09
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:09
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/27 18:55:09
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:55:09
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:18
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:18
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:55:18
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:55:18
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:29
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:29
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 0,3
+------------------------------
+
+------------------------------
+2019/12/27 18:55:29
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:55:29
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:30
+select count(*) from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:31
+select * from xw,dept where xw_to = 1 and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 1  and xw_title like '%' order by xw_id desc limit 3,3
+------------------------------
+
+------------------------------
+2019/12/27 18:55:31
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:55:31
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:32
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:32
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:34
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:34
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:36
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:36
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:39
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:39
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:40
+select * from xw,dept where xw_auther = 1 and xw.xw_to = dept.dept_id and xw_title like '%' order by xw_id desc
+------------------------------
+
+------------------------------
+2019/12/27 18:55:41
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:41
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 18:55:41
+select dept_name from dept where dept_id = 1
+------------------------------
+
+------------------------------
+2019/12/27 18:55:42
+select * from user_pswd,dept where user_pswd.dept_id = dept.dept_id order by dept.dept_id
+------------------------------
+
+------------------------------
+2019/12/27 19:46:30
+select count(*) from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 19:46:30
+select * from xw,dept where xw_to =  and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title like '%' order by xw_id desc limit 0,3
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and xw_flag = 1 and dept.dept_id = xw.xw_auther and xw.xw_read = 0  and xw_title' at line 1
+------------------------------
+
+------------------------------
+2019/12/27 19:46:30
+select * from dept
+------------------------------
+
+------------------------------
+2019/12/27 19:46:30
+select dept_name from dept where dept_id = 
+错误提示：You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+------------------------------
+

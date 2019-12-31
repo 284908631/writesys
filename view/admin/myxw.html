@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文管理系统</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>行文管理系统</h1>
+        <h4>成功不是必然的，但努力是必须的</h4>
+        <div class="user_nav">
+            [<a href="./newxw.php">首页</a>
+            <a href=""><?php echo getMyDept(); ?></a>
+            <a href="./loginoff.php">注销</a>
+            ]
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./newxw.php">新行文</a></li>
+            <li><a href="./oldxw.php">旧行文</a></li>
+            <li id="select"><a href="./myxw.php">我的行文</a></li>
+            <li><a href="./xwadd.php">行文发布</a></li>
+            <li><a href="./manage.php">系统管理</a></li>
+            <li><a href="./help.php">帮助</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+
+            <!--展示行文-->
+            <?php for($i=1,$index=($curr-1)*$cnt;$i<=$cnt&&(($curr-1)*$cnt+$i)<=$sum;$i++){ 
+                $xw = $xws[$index++];
+            ?>
+            <article>
+                <!--未发布-->
+                <?php if($xw['xw_flag']==0){ ?>
+                <h2><a href="./xwup.php?xw_id=<?php echo $xw['xw_id'];?>"><?php echo $xw['xw_title']; ?></a></h2>
+                <?php } ?>
+                
+                <!--未发布-->
+                <?php if($xw['xw_flag']==1){ ?>
+                <h2><a href="./xw.php?xw_id=<?php echo $xw['xw_id'];?>"><?php echo $xw['xw_title']; ?></a></h2>
+                <?php } ?>
+
+                <div class="entry_header">
+                    <time><?php echo date('Y/m/d H:i:s',$xw['xw_date']); ?></time>
+                    to
+
+                    <!--发送状态-->
+                    <a href="#"><?php echo $xw['dept_name']; ?></a>
+                    <!--<a class="comment" href="#">8条建议</a>-->
+                    &nbsp状态：
+                    <?php if($xw['xw_flag']==0){  ?>
+                        <a class="warning" href="#">未发布</a>
+                    <?php }else{ ?>
+                        <a  href="#">已发布</a>
+                    <?php }?>
+                </div>
+                <div class="entry_content">
+                   <?php echo $xw['xw_content']; ?>
+                </div>
+            </article>
+            <?php } ?>
+            <!--无行文-->
+            <?php if((!isset($xws)||empty($xws))&&$search_flag===false){ ?>
+                <h1 class="xwerror">无新行文</h1>
+            <?php }else if((!isset($xws)||empty($xws))&&$search_flag===true){?>
+                <h1 class="xwerror">查询无该标题</h1>
+            <?php }?>
+
+            <div id="pagebar">
+                Pages:&nbsp;
+                <?php foreach($pages as $k => $page){ ?>
+                    <?php if($k != $curr){ ?>
+                    <a href="./myxw.php?<?php echo $page; ?>"><?php echo $k; ?></a>
+                    <?php }else{ 
+                        echo $k;
+                    }
+                    ?>
+
+                <?php } ?>
+               
+            </div>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>行文分类</h4>
+                <ul>
+                    <li><a href="./myxw.php">所有</a>&nbsp;</li>
+                    <li><a href="./myxw.php?xw_flag=1">已发布</a>&nbsp;</li>
+                    <li><a href="./myxw.php?xw_flag=0">未发布</a>&nbsp;</li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

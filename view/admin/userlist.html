@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <h1>行文系统后台界面</h1>
+    </header>
+    <div id="main">
+        <div id="lside">
+            <aside>
+                <h4>用户管理</h4>
+                <ul>
+                    <li><a href="./manage.php">用户列表</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>公司员工</h4>
+                <ul>
+                    <li><a href="./perlist.php">员工列表</a></li>
+                    <li><a href="./peradd.php">添加员工</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>部门</td>
+                    <td>账号</td>
+                    <td>密码</td>
+                    <td>操作</td>
+                </tr>
+                <?php foreach($users as $user){ ?>
+                <tr>
+                    <td><?php echo $user['dept_id']; ?></td>
+                    <td><?php echo $user['dept_name']; ?></td>
+                    <td><?php echo $user['nbxw_user']; ?></td>
+                    <td><?php echo $user['nbxw_pswd']; ?></td>
+                    <td><a href="./user_pswdup.php?nbxw_user=<?php echo $user['nbxw_user']; ?>">修改</a></td>
+                </tr>
+               <?php } ?>
+            </table>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

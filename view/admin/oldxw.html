@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文管理系统</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>行文管理系统</h1>
+        <h4>成功不是必然的，但努力是必须的</h4>
+        <div class="user_nav">
+            [<a href="./newxw.php">首页</a>
+            <a href="./user.php"><?php echo getMyDept(); ?></a>
+            <a href="./loginoff.php">注销</a>
+            ]
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./newxw.php">新行文</a></li>
+            <li id="select"><a href="./oldxw.php">旧行文</a></li>
+            <li><a href="./myxw.php">我的行文</a></li>
+            <li><a href="./xwadd.php">行文发布</a></li>
+            <li><a href="./manage.php">系统管理</a></li>
+            <li><a href="./help.php">帮助</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+
+            <!--行文显示-->
+            <?php foreach($xws as $xw){ ?>
+            <article>
+                <h2><a href="./xw.php?xw_id=<?php echo $xw['xw_id'];?>"><?php echo $xw['xw_title']; ?></a></h2>
+                <div class="entry_header">
+                    <time><?php echo date('Y/m/d H:i:s',$xw['xw_date']); ?></time>
+                    by
+                    <a href="#"><?php echo $xw['dept_name'] ?></a>
+                </div>
+                <div class="entry_content">
+                   <?php echo $xw['xw_content']; ?>
+                </div>
+            </article>
+            <?php } ?>
+
+            <!--无行文-->
+            <?php if((!isset($xws)||empty($xws))&&$search_flag==false){ ?>
+                <h1 class="xwerror">无新行文</h1>
+            <?php }else if((!isset($xws)||empty($xws))&&$search_flag==true){?>
+                <h1 class="xwerror">查询无该标题</h1>
+            <?php }?>
+           
+            <!--导航栏-->
+            <div id="pagebar">
+                Pages:&nbsp;
+                <?php foreach($pages as $k => $v){ ?>
+                <?php if($k!=$curr){ ?>
+                <a href="oldxw.php?<?php echo $v;?>"><?php echo $k; ?></a>
+                <?php }else{ 
+                    echo $k;
+                ?>
+                <?php }} ?>
+            </div>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>部门分类</h4>
+                <ul>
+                    <?php foreach($depts as $dept){ ?>
+                    <li><a href="./oldxw.php?dept_id=<?php echo $dept['dept_id']; ?>"><?php echo $dept['dept_name']; ?></a>&nbsp;</li>
+                    <?php } ?>
+                </ul>
+            </aside>
+            
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019 
+    </footer>
+</body>
+</html>

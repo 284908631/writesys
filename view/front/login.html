@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/art.css">
+<style>
+form {
+width:30%;
+margin:0 auto;
+}
+#respond{
+    height:500px;
+    padding-top:100px;
+    box-sizing:border-box;
+}
+#respond input[type="button"],input[type="submit"]{
+    margin-left:50px;
+    cursor:pointer;
+}
+.authcode{
+    display:inline;
+    margin-bottom:-14px;
+    box-sizing:border-box;
+
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>行文管理系统登录</h1>
+    </header>
+    <div id="main">
+        <div id="respond" class="comment-respond">
+            <form action="" method="post">
+                <p>
+                <input placeholder="账号" name="username" type="text" value="" size="30">
+                </p>
+                <p>
+                <input placeholder="密码" name="password" type="password" value="" size="30">
+                </p>
+                <div>
+                <input type="text" placeholder="验证码" name="authcode">
+                <img src="./authcode.php" class="authcode">
+                </div>
+                <input type="submit" value="登陆">
+                <input type="button" value="管理" onclick="window.location.href='./managelogin.php';">
+            
+            </form>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+        [<a href="./newxw.php">首页</a>·<a href="./loginoff.php">注销</a>]
+        </div>
+        <h1>提醒界面</h1>
+    </header>
+    <div id="main">
+        <div class="tixing">
+            <?php if($sign == 'succ'){ ?>
+            <div class="succ"><?php echo $str;?></div>
+            <?php }else{ ?>
+            <div class="danger"><?php echo $str;?></div>
+            <?php } ?>
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>

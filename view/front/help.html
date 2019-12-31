@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行文管理系统</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>行文管理系统</h1>
+        <h4>乘风行,无惧</h4>
+        <div class="user_nav">
+            [<a href="./newxw.php">首页</a>
+            <a href="./user.php"><?php echo getMyDept(); ?></a>
+            <a href="./loginoff.php">注销</a>
+            ]
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./newxw.php">新行文</a></li>
+            <li><a href="./oldxw.php">旧行文</a></li>
+            <li><a href="./myxw.php">我的行文</a></li>
+            <li><a href="./xwadd.php">行文发布</a></li>
+            <li><a href="./manage.php">系统管理</a></li>
+            <li  id="select"><a href="./help.php">帮助</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+
+            <!--展示行文-->
+            <article>
+                <h2><a href="">帮助文档</a></h2>
+              	 <div class="entry_content">
+                     1、该系统用于企业内部发布行文<br>
+                     2、点击导航栏商贩的部门名可以自由修改密码<br>
+                     3、该系统发布的行文不可修改，如已经发布需修改，请联系管理员<br>
+                     4、请勿进行恶意攻击<br>
+                     5、出现未知问题请联系管理员
+                </div>
+            </article>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+
+        </div>
+    </div>
+    <footer>
+        MingYuefusu<br>2019
+    </footer>
+</body>
+</html>
